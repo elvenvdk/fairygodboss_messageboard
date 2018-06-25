@@ -1,8 +1,18 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; /* makes it better to change selector box-sizing */
+}
+
+// font-size 62.5% defines what 1rem is
 body {
-  background: lighten(red, 20%);
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-size: 62.5%; /* 10px/16px = .625 - this helps user to change overall font-size (for zooming in/out)  */
+  box-sizing: border-box;
   height: 100%;
   width: 100%;
 }
