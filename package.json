@@ -94,5 +94,10 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "description": "Simple React - SASS ready frontend software development starter",
+  "main": "index.js",
+  "repository": "https://github.com/elvenvdk/devstarter.git",
+  "author": "Alvin van der Kuech",
+  "license": "MIT"
 }
