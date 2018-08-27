@@ -1,3 +1,7 @@
-DEV STARTER
+Fairy God Boss Messageboard
 
-Simple React - SASS ready frontend development starter
+Messageboard is non-persistant
+
+1. Clone repo
+2. Run yarn
+3. Run > yarn start - from your terminal

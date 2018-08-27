@@ -1,0 +1,50 @@
+.landing {
+  position: relative;
+  height: 80vh;
+  width: 80vw;
+  margin: 10%;
+  border: 2px solid rgb(163, 163, 163);
+  &__header {
+    margin-top: 2%;
+    span {
+      color: #a234b2;
+    }
+  }
+  &__emptymessage {
+    position: relative;
+    width: 20rem;
+    margin: 0 auto;
+    top: 35%;
+  }
+  &__button_container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 8rem;
+    margin: 0 auto;
+    top: 85%;
+    left: 40%;
+    button {
+      position: relative;
+      margin: 0;
+      font-size: 0.4rem;
+    }
+  }
+}
+
+@media (max-width: 37.5em) {
+  .landing__button_container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 8rem;
+    margin: 0 auto;
+    top: 87%;
+    left: -5%;
+    button {
+      position: relative;
+      margin: 0;
+      font-size: 0.4rem;
+    }
+  }
+}

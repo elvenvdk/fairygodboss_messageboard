@@ -1,0 +1,24 @@
+.response {
+  position: relative;
+
+  h4 {
+    font-weight: bold;
+    position: relative;
+    left: -38%;
+  }
+  &__text_container {
+    position: relative;
+    overflow-wrap: break-word;
+    width: 85%;
+    left: 5%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .response {
+    margin: 20px 0;
+    h4 {
+      left: -30%;
+    }
+  }
+}

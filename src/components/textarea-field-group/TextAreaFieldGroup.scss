@@ -1,0 +1,13 @@
+.textareafieldgroup {
+  label {
+    position: relative;
+    left: -41%;
+    font-weight: bold;
+  }
+  &__textarea {
+    border: 2px solid rgb(163, 163, 163);
+    width: 90%;
+    height: 5rem;
+    border-radius: 3.5px;
+  }
+}

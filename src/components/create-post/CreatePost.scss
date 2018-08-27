@@ -1,0 +1,32 @@
+.createpost {
+  position: relative;
+  height: 80vh;
+  width: 80vw;
+  margin: 10%;
+  border: 2px solid rgb(163, 163, 163);
+  &__title {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  textarea {
+    margin-bottom: 40px;
+  }
+  input {
+    margin-bottom: 40px;
+  }
+  &__button_container {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    button {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media (max-width: 37.5em) {
+  .createpost__button_container {
+    justify-content: center;
+  }
+}
